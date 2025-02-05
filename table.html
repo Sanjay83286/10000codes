@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    table,tr,td{
+      border:2px solid black;
+      border-collapse:collapse;
+    }
+    td{
+      height:50px;
+      width:50px;
+    }
+tr:nth-child(even) td:nth-child(odd), tr:nth-child(odd) td:nth-child(even){
+  background-color: black;
+  color:white;
+}
+
+#row1{
+  font-size:60px;
+
+}
+
+#row1 td:hover,#row7 td:hover{
+   background-color:yellowgreen;
+}
+:root{
+  --red:red;
+}
+#row8 td:hover,#row2 td:hover{
+  background-color:var(--red);
+}
+#row2,#row7,#row8{
+  font-size:50px;
+}
+
+
+
+  </style>
+</head>
+<body>
+<table>
+  <tr id="row1">
+    <td>&#9820</td>
+    <td>&#9822</td>
+    <td>&#9821</td>
+    <td>&#9819</td>
+    <td>&#9818</td>
+    <td>&#9821</td>
+    <td>&#9822</td>
+    <td>&#9820</td>
+  </tr>
+  <tr id="row2">
+    <td>&#9823</td>
+    <td>&#9823</td>
+    <td>&#9823</td>
+    <td>&#9823</td>
+    <td>&#9823</td>
+    <td>&#9823</td>
+    <td>&#9823</td>
+    <td>&#9823</td>
+  </tr>
+  <tr id="row3">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr id="row4">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr id="row5">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr id="row6">
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr id="row7">
+    <td>&#9817</td>
+    <td>&#9817</td>
+    <td>&#9817</td>
+    <td>&#9817</td>
+    <td>&#9817</td>
+    <td>&#9817</td>
+    <td>&#9817</td>
+    <td>&#9817</td>
+  </tr>
+  <tr id="row8">
+    <td>&#9814</td>
+    <td>&#9816</td>
+    <td>&#9815</td>
+    <td>&#9813</td>
+    <td>&#9812</td>
+    <td>&#9815</td>
+    <td>&#9816</td>
+    <td>&#9814</td>
+  </tr>
+</table>
+</body>
+</html>
