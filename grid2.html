@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        .header{
+            display:grid;
+            background-color:whitesmoke;
+            grid-template-columns: auto auto auto;
+            justify-content: space-between;
+            position: sticky;
+            top:0px
+
+        }
+        .header>i{
+            margin-left:3rem;
+            margin-top:1rem;
+        }
+        .header .food{
+            margin-right:3rem;  
+        }
+        .maindiv{
+            display: grid;
+            grid-template-columns:auto  auto auto auto;
+
+        
+        }
+        .class1 p{
+            width:75%;
+           text-align:center;
+        }
+        .classs{
+            margin-left:1.5rem;
+        }
+        .nums{
+          display: grid;
+          grid-template-columns:repeat(4,20px);
+          grid-template-rows:repeat(1,60px);
+          justify-content: center;
+          text-align: center;
+          gap:10px;
+        }
+
+        .hover:hover{
+            background-color: black;
+            color:aliceblue;
+        }
+        .man{
+            display:grid;
+            justify-content:center;
+            margin-left: 5rem;
+        }
+        .navfotter{
+            display:grid;
+            grid-template-columns:300px 200px 100px 200px;
+            gap:40px;
+            margin-left:50px;
+        }
+       .one{
+        display: grid;
+        grid-template-columns:100px auto;
+       }
+    .two{
+        display: grid;
+        grid-template-columns:auto auto;
+    }
+    .popular{
+        margin-left:200px;
+    }
+    .pop{
+        display: grid;
+        grid-template-columns:repeat(5,70px);
+        gap:5px 5px;
+        
+    }
+    .color{
+        
+        background-color: black;
+        color:aliceblue;
+     
+    }
+    .fottor{
+        margin-left:50px;
+    }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <i class="fa-solid fa-bars"></i>
+        <p>My Food</p>
+        <p class="food">Mail</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="maindiv">
+        <div class="class1 classs">
+          <img src="https://www.w3schools.com/w3images/sandwich.jpg" width="75%">
+          <p style="font-size: larger;">The Perfect Sandwich, A Real NYC Classic</p>
+          <p> some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+       </div>
+
+       <div class="class2 classs">
+        <img src="https://www.w3schools.com/w3images/steak.jpg" width="75%">
+        <p style="font-size: larger";>Salmon For Your Skin</p>
+        <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+     </div>
+
+     <div class="class3 classs">
+        <img src="https://www.w3schools.com/w3images/cherries.jpg" width="75%">
+        <p style="font-size: larger";>The Perfect Sandwich, A Real NYC Classic</p>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+     </div>
+
+     <div class="class4 classs">
+        <img src="https://www.w3schools.com/w3images/wine.jpg" width="75%">
+        <p style="font-size: larger;">Le French</p>
+        <p> Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+     </div>
+  </div>
+  <br>
+  <br>
+  <br>
+<div class="nums">
+  <p class="hover">1</p>
+  <p class="hover">2</p>
+  <p class="hover">3</p>
+  <p class="hover">4</p>
+</div>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<div class="man">
+    <h3 style="display: grid; justify-content: center;">About Me, The Food Man</h3>
+    <img src="https://www.w3schools.com/w3images/chef.jpg">
+    <p style="display: grid;justify-content: center;">I am Who I Am!</p>
+    <p style="display: grid;justify-content: center;">With Passion For Real, Good Food</p>
+</div>
+<p style=" margin-left:5%;margin-right: 5%;">Just me, myself and I, exploring the universe of 
+    unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<br>
+<div class="navfotter">
+    <div class="fotter">
+        <p style="font-size: larger;">FOOTER</p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+    <div class="blog">
+        
+        <h2>BLOG POSTS</h2>
+        <div class="two">
+         <img src="https://www.w3schools.com/w3images/workshop.jpg" width="90%">
+         <p>Lorem
+            Sed mattis nunc</p>
+        </div>
+    <hr>
+    <div class="one">
+        <img src="https://www.w3schools.com/w3images/gondol.jpg"width=70%>
+        <p>Ipsum
+            Praes tinci sed</p>
+     </div>
+    </div>
+    <div class="popular">
+        <h2 style="font-style: italic;">POPULAR TAG</h2>
+    <div class="pop">
+        <p class="color">Trave</p>
+        <p class="color">New York</p>
+        <p class="color">Dinner</p>
+        <p class="color">Drinks</p>
+        <p class="color">Ideas</p>
+    </div>
+    </div>
+</div>
+</body>
+</html>
